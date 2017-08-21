@@ -1,6 +1,6 @@
 FROM alpine:3.6
 
-LABEL maintainer "We ahead <docker@weahead.se>"
+LABEL maintainer="We ahead <docker@weahead.se>"
 
 ENV RANCHER_CLI_VERSION="0.5.1"
 
