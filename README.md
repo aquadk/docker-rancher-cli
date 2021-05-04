@@ -11,7 +11,7 @@ docker run --rm -v $PWD:/data \
         -e RANCHER_URL=<rancher server url> \
         -e RANCHER_ACCESS_KEY=<rancher access key> \
         -e RANCHER_SECRET_KEY=<rancher secret key> \
-        weahead/rancher-cli:0.6.3 up -f docker-compose.production.yml
+        aquadk/rancher-cli:0.6.14 up -f docker-compose.production.yml
 
 ```
 
