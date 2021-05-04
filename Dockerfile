@@ -1,8 +1,8 @@
-FROM alpine:3.6
+FROM alpine:3.13
 
 LABEL maintainer="We ahead <docker@weahead.se>"
 
-ENV RANCHER_CLI_VERSION="0.6.3"
+ENV RANCHER_CLI_VERSION="0.6.14"
 
 RUN apk --no-cache add --virtual build-deps curl \
   && curl -L "https://releases.rancher.com/cli/v${RANCHER_CLI_VERSION}/binaries/linux-amd64/rancher.xz" | xzcat - > /usr/local/bin/rancher \
