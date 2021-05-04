@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t weahead/rancher-cli:0.6.3 .
+docker build -t weahead/rancher-cli:0.6.14 .
